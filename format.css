@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .container {
+    max-width: 520px;
+    max-height: 728px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+  }
+  #or {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    background-color: #8fc898;
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0e3308;
+  }
+
+  .sign-in-google {
+    background-image: url("https://img.icons8.com/color/24/google-logo.png");
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: center;
+    background-color: #0d0808;
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .sign-in-google:hover {
+    background-color: #613f3f;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .login-message {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .login-message a {
+    color: #007bff;
+  }
